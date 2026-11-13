@@ -134,7 +134,7 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
 
 <div class="stats-bar">
   <div class="stat-item"><span class="stat-num">30</span><span class="stat-lbl">Pertandingan</span></div>
-  <div class="stat-item"><span class="stat-num">11</span><span class="stat-lbl">Liga</span></div>
+  <div class="stat-item"><span class="stat-num">9</span><span class="stat-lbl">Liga</span></div>
   <div class="stat-item"><span class="stat-num">100%</span><span class="stat-lbl">Terupdate</span></div>
 </div>
 
@@ -149,16 +149,14 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <select class="fselect" id="leagueFilter" onchange="filterLeague(this.value)">
         <option value="all">Semua Liga</option>
 <option value="UEFA NATIONS LEAGUE A">🏆 UEFA NATIONS LEAGUE A</option>
+<option value="UEFA NATIONS LEAGUE B">🏆 UEFA NATIONS LEAGUE B</option>
 <option value="UEFA NATIONS LEAGUE C">🏆 UEFA NATIONS LEAGUE C</option>
+<option value="UEFA NATIONS LEAGUE D">🏆 UEFA NATIONS LEAGUE D</option>
 <option value="INTERNATIONAL FRIENDLY">🏆 INTERNATIONAL FRIENDLY</option>
 <option value="AUSTRALIA CHAMPIONSHIP">🏆 AUSTRALIA CHAMPIONSHIP</option>
 <option value="AFRICA CUP OF NATIONS 2027 QUALIFIERS">🏆 AFRICA CUP OF NATIONS 2027 QUALIFIERS</option>
-<option value="ARGENTINA SUPER CUP">🏆 ARGENTINA SUPER CUP</option>
 <option value="CONCACAF NATIONS LEAGUE A">🏆 CONCACAF NATIONS LEAGUE A</option>
-<option value="BRAZIL SERIE B">🏆 BRAZIL SERIE B</option>
-<option value="CONCACAF NATIONS LEAGUE B">🏆 CONCACAF NATIONS LEAGUE B</option>
 <option value="COLOMBIA PRIMERA A">🏆 COLOMBIA PRIMERA A</option>
-<option value="MEXICO LIGA DE EXPANSION PLAYOFF">🏆 MEXICO LIGA DE EXPANSION PLAYOFF</option>
 
       </select>
     </div>
@@ -182,26 +180,26 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
   <div class="league-inner">
     <div class="league-crown">
       <div class="crown-name">🏆 UEFA NATIONS LEAGUE A 🏆</div>
-      <div class="match-count">4 Match</div>
+      <div class="match-count">2 Match</div>
     </div>
 
-    <div class="match-card even" data-teams="🇹🇷turkey 🇧🇪belgium" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="🇳🇱netherlands 🇬🇷greece" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7nwn4e3VDwvdGV4dD48L3N2Zz4=" alt="🇹🇷Turkey" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7nwn4e3VDwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">🇹🇷Turkey</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Pwn4exTjwvdGV4dD48L3N2Zz4=" alt="🇳🇱Netherlands" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Pwn4exTjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇳🇱Netherlands</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">1 : 2</div>
-          <div class="match-dt">13/11<br />00:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
+          <div class="score-num">2 : 0</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
+          <div class="market-line">HDP -1.25</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">🇧🇪Belgium</span>
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6fwn4eqQjwvdGV4dD48L3N2Zz4=" alt="🇧🇪Belgium" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6fwn4eqQjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇬🇷Greece</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4e3RzwvdGV4dD48L3N2Zz4=" alt="🇬🇷Greece" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4e3RzwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -209,32 +207,32 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇧🇪Belgium -0.5</span><span class="col-note">Performa Away Solid</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇧🇪Belgium Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇳🇱Netherlands -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇳🇱Netherlands Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 0</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card odd" data-teams="czech republic 🇪🇸spain" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="serbia 🇩🇪germany" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/1o0cx31654205806.png" alt="Czech Republic" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNSPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Czech Republic</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/rs.png" alt="Serbia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNFUjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Serbia</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">0 : 3</div>
-          <div class="match-dt">13/11<br />02:45 WIB</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
           <div class="market-line">HDP -2.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">🇪🇸Spain</span>
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6rwn4e4UzwvdGV4dD48L3N2Zz4=" alt="🇪🇸Spain" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6rwn4e4UzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇩🇪Germany</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6nwn4eqRzwvdGV4dD48L3N2Zz4=" alt="🇩🇪Germany" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6nwn4eqRzwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -242,32 +240,41 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇪🇸Spain -2.5</span><span class="col-note">Away Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇩🇪Germany -2.5</span><span class="col-note">Away Diunggulkan</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇪🇸Spain Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇩🇪Germany Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">0 : 3</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="match-card even" data-teams="🇬🇧england 🇭🇷croatia" onclick="toggleCard(this, event)">
+<div class="league-block" data-league="UEFA NATIONS LEAGUE B">
+  <div class="league-inner">
+    <div class="league-crown">
+      <div class="crown-name">🏆 UEFA NATIONS LEAGUE B 🏆</div>
+      <div class="match-count">2 Match</div>
+    </div>
+
+    <div class="match-card even" data-teams="🇬🇧scotland north macedonia" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4enRTwvdGV4dD48L3N2Zz4=" alt="🇬🇧England" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4enRTwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">🇬🇧England</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4enUzwvdGV4dD48L3N2Zz4=" alt="🇬🇧Scotland" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4enUzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇬🇧Scotland</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">3 : 0</div>
-          <div class="match-dt">13/11<br />02:45 WIB</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
           <div class="market-line">HDP -2.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">🇭🇷Croatia</span>
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh63wn4e3QzwvdGV4dD48L3N2Zz4=" alt="🇭🇷Croatia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh63wn4e3QzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">North Macedonia</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/mk.png" alt="North Macedonia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk5NPC90ZXh0Pjwvc3ZnPg==';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -275,32 +282,32 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇬🇧England -2.5</span><span class="col-note">Home Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇬🇧Scotland -2.5</span><span class="col-note">Home Diunggulkan</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇬🇧England Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇬🇧Scotland Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card odd" data-teams="🇮🇹italy 🇫🇷france" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="slovenia 🇨🇭switzerland" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh67wn4e5STwvdGV4dD48L3N2Zz4=" alt="🇮🇹Italy" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh67wn4e5STwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">🇮🇹Italy</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/si.png" alt="Slovenia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNMTzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Slovenia</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">1 : 2</div>
-          <div class="match-dt">13/11<br />02:45 WIB</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
           <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">🇫🇷France</span>
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6vwn4e3RjwvdGV4dD48L3N2Zz4=" alt="🇫🇷France" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6vwn4e3RjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇨🇭Switzerland</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4etUzwvdGV4dD48L3N2Zz4=" alt="🇨🇭Switzerland" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4etUzwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -308,9 +315,9 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇫🇷France -0.5</span><span class="col-note">Performa Away Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇨🇭Switzerland -0.5</span><span class="col-note">Performa Away Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇫🇷France Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇨🇭Switzerland Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
@@ -326,23 +333,23 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="match-count">4 Match</div>
     </div>
 
-    <div class="match-card even" data-teams="armenia cyprus" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="moldova kazakhstan" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/am.png" alt="Armenia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFSTTwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Armenia</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/md.png" alt="Moldova" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1PTDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Moldova</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />00:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
+          <div class="score-num">1 : 1</div>
+          <div class="match-dt">14/11<br />00:00 WIB</div>
+          <div class="market-line">HDP 0.0</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Cyprus</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/cy.png" alt="Cyprus" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNZUDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Kazakhstan</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/kz.png" alt="Kazakhstan" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPktBWjwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -350,32 +357,32 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Armenia -0.5</span><span class="col-note">Performa Home Solid</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Armenia Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">0.0 (DNB)</span><span class="col-note">Peluang Sama Kuat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Draw (X)</span><span class="col-note">Hasil Imbang / Seri</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 1</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card odd" data-teams="albania finland" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="bulgaria iceland" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/al.png" alt="Albania" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFMQjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Albania</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/bg.png" alt="Bulgaria" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJVTDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Bulgaria</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />02:45 WIB</div>
+          <div class="score-num">1 : 2</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
           <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Finland</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/fi.png" alt="Finland" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkZJTjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Iceland</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/is.png" alt="Iceland" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPklDRTwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -383,32 +390,65 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Albania -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Iceland -0.5</span><span class="col-note">Performa Away Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Albania Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Iceland Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card even" data-teams="luxembourg estonia" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://flagcdn.com/w320/lu.png" alt="Luxembourg" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxVWDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Luxembourg</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">2 : 1</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
+          <div class="market-line">HDP -0.5</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Estonia</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/ee.png" alt="Estonia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkVTVDwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Luxembourg -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Luxembourg Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card even" data-teams="montenegro latvia" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="slovakia faroe islands" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/me.png" alt="Montenegro" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1PTjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Montenegro</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/sk.png" alt="Slovakia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNMTzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Slovakia</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">3 : 1</div>
-          <div class="match-dt">13/11<br />02:45 WIB</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
           <div class="market-line">HDP -1.25</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Latvia</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/lv.png" alt="Latvia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxBVDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Faroe Islands</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/fo.png" alt="Faroe Islands" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkZJPC90ZXh0Pjwvc3ZnPg==';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -416,32 +456,41 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Montenegro -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Slovakia -1.25</span><span class="col-note">Home Unggul</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Montenegro Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Slovakia Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="match-card odd" data-teams="san marino belarus" onclick="toggleCard(this, event)">
+<div class="league-block" data-league="UEFA NATIONS LEAGUE D">
+  <div class="league-inner">
+    <div class="league-crown">
+      <div class="crown-name">🏆 UEFA NATIONS LEAGUE D 🏆</div>
+      <div class="match-count">2 Match</div>
+    </div>
+
+    <div class="match-card even" data-teams="andorra cf gibraltar" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/sm.png" alt="San Marino" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNNPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">San Marino</span>
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/zm3git1735192524.png" alt="Andorra CF" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFDPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Andorra CF</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">0 : 3</div>
-          <div class="match-dt">13/11<br />02:45 WIB</div>
-          <div class="market-line">HDP -2.5</div>
+          <div class="score-num">2 : 1</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
+          <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Belarus</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/by.png" alt="Belarus" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJFTDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Gibraltar</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/gi.png" alt="Gibraltar" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdJQjwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -449,10 +498,43 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Belarus -2.5</span><span class="col-note">Away Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Andorra CF -0.5</span><span class="col-note">Performa Home Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Belarus Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">0 : 3</span><span class="col-note">Top Pick</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Andorra CF Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card odd" data-teams="liechtenstein azerbaijan" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://flagcdn.com/w320/li.png" alt="Liechtenstein" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxJRTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Liechtenstein</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">1 : 3</div>
+          <div class="match-dt">14/11<br />02:45 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Azerbaijan</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/az.png" alt="Azerbaijan" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFaRTwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Azerbaijan -1.25</span><span class="col-note">Away Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Azerbaijan Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 3</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
@@ -467,56 +549,23 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="match-count">4 Match</div>
     </div>
 
-    <div class="match-card even" data-teams="🇳🇿new zealand 🇮🇳india" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="qatar sc 🇦🇺australia" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7NaPC90ZXh0Pjwvc3ZnPg==" alt="🇳🇿New Zealand" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7NaPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">🇳🇿New Zealand</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">3 : 0</div>
-          <div class="match-dt">12/11<br />13:00 WIB</div>
-          <div class="market-line">HDP -2.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">🇮🇳India</span>
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh67wn4ezSTwvdGV4dD48L3N2Zz4=" alt="🇮🇳India" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh67wn4ezSTwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇳🇿New Zealand -2.5</span><span class="col-note">Home Diunggulkan</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇳🇿New Zealand Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card odd" data-teams="uzbekistan russia" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/uz.png" alt="Uzbekistan" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlVaQjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Uzbekistan</span>
+            <img class="team-flag" src="https://www.thesportsdb.com/images/media/team/badge/3c07ob1774579037.png" alt="Qatar SC" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlFTPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Qatar SC</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">1 : 2</div>
-          <div class="match-dt">12/11<br />22:00 WIB</div>
+          <div class="match-dt">13/11<br />21:45 WIB</div>
           <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Russia</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/ru.png" alt="Russia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlJVUzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇦🇺Australia</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6bwn4e6QTwvdGV4dD48L3N2Zz4=" alt="🇦🇺Australia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6bwn4e6QTwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -524,32 +573,173 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Russia -0.5</span><span class="col-note">Performa Away Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇦🇺Australia -0.5</span><span class="col-note">Performa Away Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Russia Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇦🇺Australia Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card even" data-teams="lithuania suriname" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="🇦🇷argentina 🇺🇾uruguay" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/lt.png" alt="Lithuania" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxJVDwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Lithuania</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6bwn4e3QTwvdGV4dD48L3N2Zz4=" alt="🇦🇷Argentina" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6bwn4e3QTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇦🇷Argentina</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">2 : 0</div>
+          <div class="match-dt">14/11<br />06:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">🇺🇾Uruguay</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7rwn4e+VTwvdGV4dD48L3N2Zz4=" alt="🇺🇾Uruguay" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7rwn4e+VTwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇦🇷Argentina -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇦🇷Argentina Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 0</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card even" data-teams="🇨🇴colombia 🇨🇱chile" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4e0QzwvdGV4dD48L3N2Zz4=" alt="🇨🇴Colombia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4e0QzwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇨🇴Colombia</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">3 : 1</div>
+          <div class="match-dt">14/11<br />07:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">🇨🇱Chile</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4exQzwvdGV4dD48L3N2Zz4=" alt="🇨🇱Chile" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4exQzwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇨🇴Colombia -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇨🇴Colombia Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card odd" data-teams="🇵🇪peru bolivia" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Xwn4eqUDwvdGV4dD48L3N2Zz4=" alt="🇵🇪Peru" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Xwn4eqUDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇵🇪Peru</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">2 : 0</div>
+          <div class="match-dt">14/11<br />08:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Bolivia</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/bo.png" alt="Bolivia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJPTDwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇵🇪Peru -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇵🇪Peru Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 0</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="league-block" data-league="AUSTRALIA CHAMPIONSHIP">
+  <div class="league-inner">
+    <div class="league-crown">
+      <div class="crown-name">🏆 AUSTRALIA CHAMPIONSHIP 🏆</div>
+      <div class="match-count">2 Match</div>
+    </div>
+
+    <div class="match-card even" data-teams="oakleigh cannons marconi stallions" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/mdy7oj1743213138.png" alt="Oakleigh Cannons" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk9DPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Oakleigh Cannons</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">2 : 1</div>
+          <div class="match-dt">13/11<br />15:30 WIB</div>
+          <div class="market-line">HDP -0.5</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Marconi Stallions</span>
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/noeabj1742605073.png" alt="Marconi Stallions" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1TPC90ZXh0Pjwvc3ZnPg==';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Oakleigh Cannons -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Oakleigh Cannons Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card odd" data-teams="preston lions lions fc" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/3z2w081733328378.png" alt="Preston Lions" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlBMPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Preston Lions</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">1 : 1</div>
-          <div class="match-dt">13/11<br />00:00 WIB</div>
+          <div class="match-dt">13/11<br />15:30 WIB</div>
           <div class="market-line">HDP 0.0</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Suriname</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/sr.png" alt="Suriname" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNVUjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Lions FC</span>
+            <img class="team-flag" src="https://media.api-sports.io/football/teams/17992.png" alt="Lions FC" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxGPC90ZXh0Pjwvc3ZnPg==';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -565,81 +755,6 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
         </div>
       </div>
     </div>
-
-    <div class="match-card odd" data-teams="malta eswatini" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/mt.png" alt="Malta" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1BTDwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Malta</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">2 : 0</div>
-          <div class="match-dt">13/11<br />00:30 WIB</div>
-          <div class="market-line">HDP -1.25</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Eswatini</span>
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/c46mz91742102274.png" alt="Eswatini" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkVTVzwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Malta -1.25</span><span class="col-note">Home Unggul</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Malta Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 0</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="league-block" data-league="AUSTRALIA CHAMPIONSHIP">
-  <div class="league-inner">
-    <div class="league-crown">
-      <div class="crown-name">🏆 AUSTRALIA CHAMPIONSHIP 🏆</div>
-      <div class="match-count">1 Match</div>
-    </div>
-
-    <div class="match-card even" data-teams="apia leichhardt adelaide city" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/gg42q81736270389.png" alt="APIA Leichhardt" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFMPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">APIA Leichhardt</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">3 : 1</div>
-          <div class="match-dt">12/11<br />15:30 WIB</div>
-          <div class="market-line">HDP -1.25</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Adelaide City</span>
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/lpcckq1742783762.png" alt="Adelaide City" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFDPC90ZXh0Pjwvc3ZnPg==';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">APIA Leichhardt -1.25</span><span class="col-note">Home Unggul</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">APIA Leichhardt Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -647,92 +762,26 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
   <div class="league-inner">
     <div class="league-crown">
       <div class="crown-name">🏆 AFRICA CUP OF NATIONS 2027 QUALIFIERS 🏆</div>
-      <div class="match-count">9 Match</div>
+      <div class="match-count">12 Match</div>
     </div>
 
-    <div class="match-card even" data-teams="🇬🇭ghana somalia" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="comoros congo" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4etRzwvdGV4dD48L3N2Zz4=" alt="🇬🇭Ghana" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6zwn4etRzwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">🇬🇭Ghana</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">3 : 0</div>
-          <div class="match-dt">12/11<br />22:00 WIB</div>
-          <div class="market-line">HDP -2.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Somalia</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/so.png" alt="Somalia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNPTTwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇬🇭Ghana -2.5</span><span class="col-note">Home Diunggulkan</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇬🇭Ghana Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card odd" data-teams="dr congo sierra leone" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/cd.png" alt="DR Congo" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkRDPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">DR Congo</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">3 : 0</div>
-          <div class="match-dt">12/11<br />23:00 WIB</div>
-          <div class="market-line">HDP -2.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Sierra Leone</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/sl.png" alt="Sierra Leone" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNMPC90ZXh0Pjwvc3ZnPg==';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">DR Congo -2.5</span><span class="col-note">Home Diunggulkan</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">DR Congo Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card even" data-teams="equatorial guinea zimbabwe" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/gq.png" alt="Equatorial Guinea" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkVHPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Equatorial Guinea</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/km.png" alt="Comoros" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNPTTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Comoros</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">2 : 1</div>
-          <div class="match-dt">12/11<br />23:00 WIB</div>
+          <div class="match-dt">13/11<br />20:00 WIB</div>
           <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Zimbabwe</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/zw.png" alt="Zimbabwe" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlpJTTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Congo</span>
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/rieszn1728748814.png" alt="Congo" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNPTjwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -740,131 +789,32 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Equatorial Guinea -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Comoros -0.5</span><span class="col-note">Performa Home Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Equatorial Guinea Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Comoros Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card odd" data-teams="guinea eritrea" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="mozambique ethiopia" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/gn.png" alt="Guinea" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdVSTwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Guinea</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/mz.png" alt="Mozambique" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1PWjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Mozambique</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">3 : 0</div>
-          <div class="match-dt">12/11<br />23:00 WIB</div>
-          <div class="market-line">HDP -2.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Eritrea</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/er.png" alt="Eritrea" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkVSSTwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Guinea -2.5</span><span class="col-note">Home Diunggulkan</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Guinea Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card even" data-teams="madagascar guinea-bissau" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/mg.png" alt="Madagascar" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1BRDwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Madagascar</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">1 : 2</div>
-          <div class="match-dt">12/11<br />23:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Guinea-Bissau</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/gw.png" alt="Guinea-Bissau" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdCPC90ZXh0Pjwvc3ZnPg==';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Guinea-Bissau -0.5</span><span class="col-note">Performa Away Solid</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Guinea-Bissau Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card odd" data-teams="benin central african republic" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/bj.png" alt="Benin" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJFTjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Benin</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />02:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Central African Republic</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/cf.png" alt="Central African Republic" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNBPC90ZXh0Pjwvc3ZnPg==';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Benin -0.5</span><span class="col-note">Performa Home Solid</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Benin Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card even" data-teams="🇨🇲cameroon namibia" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4eyQzwvdGV4dD48L3N2Zz4=" alt="🇨🇲Cameroon" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4eyQzwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">🇨🇲Cameroon</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">3 : 1</div>
-          <div class="match-dt">13/11<br />02:00 WIB</div>
+          <div class="score-num">2 : 0</div>
+          <div class="match-dt">13/11<br />20:00 WIB</div>
           <div class="market-line">HDP -1.25</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Namibia</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/na.png" alt="Namibia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk5BTTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Ethiopia</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/et.png" alt="Ethiopia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkVUSDwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -872,32 +822,131 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇨🇲Cameroon -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Mozambique -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Mozambique Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 0</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card even" data-teams="zambia burundi" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://flagcdn.com/w320/zm.png" alt="Zambia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlpBTTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Zambia</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">2 : 1</div>
+          <div class="match-dt">13/11<br />20:00 WIB</div>
+          <div class="market-line">HDP -0.5</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Burundi</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/bi.png" alt="Burundi" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJVUjwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Zambia -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Zambia Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card odd" data-teams="burkina faso mauritania" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://flagcdn.com/w320/bf.png" alt="Burkina Faso" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJGPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Burkina Faso</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">2 : 0</div>
+          <div class="match-dt">13/11<br />23:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Mauritania</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/mr.png" alt="Mauritania" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1BVTwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Burkina Faso -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Burkina Faso Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 0</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card even" data-teams="cape verde liberia" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://flagcdn.com/w320/cv.png" alt="Cape Verde" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNWPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Cape Verde</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">3 : 1</div>
+          <div class="match-dt">13/11<br />23:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Liberia</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/lr.png" alt="Liberia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxJQjwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Cape Verde -1.25</span><span class="col-note">Home Unggul</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇨🇲Cameroon Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Cape Verde Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card odd" data-teams="🇨🇮ivory coast gambia" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="gabon lesotho" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6hDPC90ZXh0Pjwvc3ZnPg==" alt="🇨🇮Ivory Coast" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6hDPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">🇨🇮Ivory Coast</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/ga.png" alt="Gabon" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdBQjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Gabon</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">3 : 0</div>
-          <div class="match-dt">13/11<br />02:00 WIB</div>
+          <div class="match-dt">13/11<br />23:00 WIB</div>
           <div class="market-line">HDP -2.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Gambia</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/gm.png" alt="Gambia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdBTTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Lesotho</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/ls.png" alt="Lesotho" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxFUzwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -905,32 +954,32 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇨🇮Ivory Coast -2.5</span><span class="col-note">Home Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Gabon -2.5</span><span class="col-note">Home Diunggulkan</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇨🇮Ivory Coast Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Gabon Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="match-card even" data-teams="🇸🇳senegal sudan" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="🇳🇬nigeria tanzania" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7jwn4ezUzwvdGV4dD48L3N2Zz4=" alt="🇸🇳Senegal" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7jwn4ezUzwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">🇸🇳Senegal</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Pwn4esTjwvdGV4dD48L3N2Zz4=" alt="🇳🇬Nigeria" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Pwn4esTjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇳🇬Nigeria</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">3 : 0</div>
-          <div class="match-dt">13/11<br />02:00 WIB</div>
+          <div class="match-dt">13/11<br />23:00 WIB</div>
           <div class="market-line">HDP -2.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Sudan</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/sd.png" alt="Sudan" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNVRDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Tanzania</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/tz.png" alt="Tanzania" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlRBTjwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -938,41 +987,32 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇸🇳Senegal -2.5</span><span class="col-note">Home Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇳🇬Nigeria -2.5</span><span class="col-note">Home Diunggulkan</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇸🇳Senegal Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇳🇬Nigeria Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="league-block" data-league="ARGENTINA SUPER CUP">
-  <div class="league-inner">
-    <div class="league-crown">
-      <div class="crown-name">🏆 ARGENTINA SUPER CUP 🏆</div>
-      <div class="match-count">1 Match</div>
-    </div>
-
-    <div class="match-card even" data-teams="estudiantes la plata independiente rivadavia" onclick="toggleCard(this, event)">
+    <div class="match-card odd" data-teams="🇿🇦south africa kenya" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://assets.football-logos.cc/logos/argentina/256x256/estudiantes-de-la-plata.c58f9f29.png" alt="Estudiantes La Plata" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkVMPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Estudiantes La Plata</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh79BPC90ZXh0Pjwvc3ZnPg==" alt="🇿🇦South Africa" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh79BPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">🇿🇦South Africa</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />06:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
+          <div class="score-num">3 : 1</div>
+          <div class="match-dt">13/11<br />23:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Independiente Rivadavia</span>
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/qgzi2b1769406125.png" alt="Independiente Rivadavia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPklSPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Kenya</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/ke.png" alt="Kenya" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPktFTjwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -980,10 +1020,142 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Estudiantes La Plata -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇿🇦South Africa -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇿🇦South Africa Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card even" data-teams="🇹🇳tunisia libya" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7nwn4ezVDwvdGV4dD48L3N2Zz4=" alt="🇹🇳Tunisia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7nwn4ezVDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇹🇳Tunisia</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">3 : 1</div>
+          <div class="match-dt">13/11<br />23:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Libya</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/ly.png" alt="Libya" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxJQjwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇹🇳Tunisia -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇹🇳Tunisia Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card odd" data-teams="🇪🇬egypt malawi" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6rwn4esRTwvdGV4dD48L3N2Zz4=" alt="🇪🇬Egypt" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6rwn4esRTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇪🇬Egypt</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">3 : 0</div>
+          <div class="match-dt">14/11<br />02:00 WIB</div>
+          <div class="market-line">HDP -2.5</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Malawi</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/mw.png" alt="Malawi" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1BTDwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇪🇬Egypt -2.5</span><span class="col-note">Home Diunggulkan</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Estudiantes La Plata Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇪🇬Egypt Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card even" data-teams="mali rwanda" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="https://flagcdn.com/w320/ml.png" alt="Mali" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk1BTDwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Mali</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">3 : 1</div>
+          <div class="match-dt">14/11<br />02:00 WIB</div>
+          <div class="market-line">HDP -1.25</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Rwanda</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/rw.png" alt="Rwanda" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlJXQTwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Mali -1.25</span><span class="col-note">Home Unggul</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 3.5</span><span class="col-note">Hujan Gol</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Mali Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 1</span><span class="col-note">Top Pick</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="match-card odd" data-teams="🇲🇦morocco niger" onclick="toggleCard(this, event)">
+      <div class="match-row">
+        <div class="team-side left">
+          <div class="team-line left-line">
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Lwn4emTTwvdGV4dD48L3N2Zz4=" alt="🇲🇦Morocco" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh7Lwn4emTTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇲🇦Morocco</span>
+          </div>
+        </div>
+        <div class="score-center">
+          <div class="score-num">3 : 0</div>
+          <div class="match-dt">14/11<br />03:00 WIB</div>
+          <div class="market-line">HDP -2.5</div>
+        </div>
+        <div class="team-side right">
+          <div class="team-line right-line">
+            <span class="team-name">Niger</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/ne.png" alt="Niger" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPk5JRzwvdGV4dD48L3N2Zz4=';" />
+          </div>
+        </div>
+        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
+      </div>
+      <div class="pred-panel" onclick="event.stopPropagation()">
+        <div class="pred-inner">
+          <div class="pred-grid">
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇲🇦Morocco -2.5</span><span class="col-note">Home Diunggulkan</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">🇲🇦Morocco Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">3 : 0</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
@@ -998,23 +1170,23 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="match-count">1 Match</div>
     </div>
 
-    <div class="match-card even" data-teams="curacao panama" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="guatemala 🇨🇦canada" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/cw.png" alt="Curacao" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNVUjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Curacao</span>
+            <img class="team-flag" src="https://flagcdn.com/w320/gt.png" alt="Guatemala" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdVQTwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">Guatemala</span>
           </div>
         </div>
         <div class="score-center">
           <div class="score-num">1 : 2</div>
-          <div class="match-dt">13/11<br />07:30 WIB</div>
+          <div class="match-dt">14/11<br />09:00 WIB</div>
           <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Panama</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/pa.png" alt="Panama" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlBBTjwvdGV4dD48L3N2Zz4=';" />
+            <span class="team-name">🇨🇦Canada</span>
+            <img class="team-flag" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4emQzwvdGV4dD48L3N2Zz4=" alt="🇨🇦Canada" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPvCfh6jwn4emQzwvdGV4dD48L3N2Zz4=';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -1022,160 +1194,10 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Panama -0.5</span><span class="col-note">Performa Away Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">🇨🇦Canada -0.5</span><span class="col-note">Performa Away Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Panama Menang</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">🇨🇦Canada Menang</span></div>
             <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="league-block" data-league="BRAZIL SERIE B">
-  <div class="league-inner">
-    <div class="league-crown">
-      <div class="crown-name">🏆 BRAZIL SERIE B 🏆</div>
-      <div class="match-count">1 Match</div>
-    </div>
-
-    <div class="match-card even" data-teams="sao bernardo sp athletic club-mg" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://assets.football-logos.cc/logos/brazil/256x256/sao-bernardo.497b05ff.png" alt="Sao Bernardo SP" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPlNCPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Sao Bernardo SP</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />06:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Athletic Club-MG</span>
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/myl7c31677056352.png" alt="Athletic Club-MG" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFDPC90ZXh0Pjwvc3ZnPg==';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Sao Bernardo SP -0.5</span><span class="col-note">Performa Home Solid</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Sao Bernardo SP Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="league-block" data-league="CONCACAF NATIONS LEAGUE B">
-  <div class="league-inner">
-    <div class="league-crown">
-      <div class="crown-name">🏆 CONCACAF NATIONS LEAGUE B 🏆</div>
-      <div class="match-count">3 Match</div>
-    </div>
-
-    <div class="match-card even" data-teams="barbados guadeloupe" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/bb.png" alt="Barbados" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJBUjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Barbados</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">1 : 1</div>
-          <div class="match-dt">13/11<br />02:00 WIB</div>
-          <div class="market-line">HDP 0.0</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Guadeloupe</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/gp.png" alt="Guadeloupe" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdVQTwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">0.0 (DNB)</span><span class="col-note">Peluang Sama Kuat</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Under 2.5</span><span class="col-note">Pertahanan Ketat</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Draw (X)</span><span class="col-note">Hasil Imbang / Seri</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 1</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card odd" data-teams="cayman islands guyana" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://flagcdn.com/w320/ky.png" alt="Cayman Islands" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNJPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Cayman Islands</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">0 : 3</div>
-          <div class="match-dt">13/11<br />02:00 WIB</div>
-          <div class="market-line">HDP -2.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Guyana</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/gy.png" alt="Guyana" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkdVWTwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Guyana -2.5</span><span class="col-note">Away Diunggulkan</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Guyana Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">0 : 3</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="match-card even" data-teams="bonaire cuba" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/flwbqo1600954995.png" alt="Bonaire" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJPTjwvdGV4dD48L3N2Zz4=';" />
-            <span class="team-name">Bonaire</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">0 : 3</div>
-          <div class="match-dt">13/11<br />03:00 WIB</div>
-          <div class="market-line">HDP -2.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Cuba</span>
-            <img class="team-flag" src="https://flagcdn.com/w320/cu.png" alt="Cuba" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkNVQjwvdGV4dD48L3N2Zz4=';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Cuba -2.5</span><span class="col-note">Away Diunggulkan</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Cuba Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">0 : 3</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
@@ -1190,23 +1212,23 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="match-count">1 Match</div>
     </div>
 
-    <div class="match-card even" data-teams="llaneros sa boyaca chico" onclick="toggleCard(this, event)">
+    <div class="match-card even" data-teams="internacional de bogota independiente santa fe" onclick="toggleCard(this, event)">
       <div class="match-row">
         <div class="team-side left">
           <div class="team-line left-line">
-            <img class="team-flag" src="https://assets.football-logos.cc/logos/colombia/256x256/llaneros.004e2376.png" alt="Llaneros SA" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxTPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Llaneros SA</span>
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/jujchi1767716318.png" alt="Internacional de Bogota" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPklEPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Internacional de Bogota</span>
           </div>
         </div>
         <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />07:00 WIB</div>
+          <div class="score-num">1 : 2</div>
+          <div class="match-dt">14/11<br />08:30 WIB</div>
           <div class="market-line">HDP -0.5</div>
         </div>
         <div class="team-side right">
           <div class="team-line right-line">
-            <span class="team-name">Boyaca Chico</span>
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/boe8tv1677602771.png" alt="Boyaca Chico" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkJDPC90ZXh0Pjwvc3ZnPg==';" />
+            <span class="team-name">Independiente Santa Fe</span>
+            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/16vs771629122765.png" alt="Independiente Santa Fe" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPklTPC90ZXh0Pjwvc3ZnPg==';" />
           </div>
         </div>
         <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
@@ -1214,52 +1236,10 @@ body { background: var(--bg); font-family: 'Poppins', sans-serif; color: var(--c
       <div class="pred-panel" onclick="event.stopPropagation()">
         <div class="pred-inner">
           <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Llaneros SA -0.5</span><span class="col-note">Performa Home Solid</span></div>
+            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Independiente Santa Fe -0.5</span><span class="col-note">Performa Away Solid</span></div>
             <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Llaneros SA Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="league-block" data-league="MEXICO LIGA DE EXPANSION PLAYOFF">
-  <div class="league-inner">
-    <div class="league-crown">
-      <div class="crown-name">🏆 MEXICO LIGA DE EXPANSION PLAYOFF 🏆</div>
-      <div class="match-count">1 Match</div>
-    </div>
-
-    <div class="match-card even" data-teams="atletico morelia leones negros udeg" onclick="toggleCard(this, event)">
-      <div class="match-row">
-        <div class="team-side left">
-          <div class="team-line left-line">
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/uhbyxf1688149816.png" alt="Atletico Morelia" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkFNPC90ZXh0Pjwvc3ZnPg==';" />
-            <span class="team-name">Atletico Morelia</span>
-          </div>
-        </div>
-        <div class="score-center">
-          <div class="score-num">2 : 1</div>
-          <div class="match-dt">13/11<br />09:00 WIB</div>
-          <div class="market-line">HDP -0.5</div>
-        </div>
-        <div class="team-side right">
-          <div class="team-line right-line">
-            <span class="team-name">Leones Negros UdeG</span>
-            <img class="team-flag" src="https://r2.thesportsdb.com/images/media/team/badge/ywysws1426824667.png" alt="Leones Negros UdeG" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1NSIgZmlsbD0iI2Q0NWUwNCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjUiLz48dGV4dCB4PSI1MCUiIHk9IjU1JSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzAwMCIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZHk9Ii4zZW0iPkxOPC90ZXh0Pjwvc3ZnPg==';" />
-          </div>
-        </div>
-        <div class="chev"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>
-      </div>
-      <div class="pred-panel" onclick="event.stopPropagation()">
-        <div class="pred-inner">
-          <div class="pred-grid">
-            <div class="pred-col accent-green"><span class="col-title">Handicap</span><span class="col-answer green">Atletico Morelia -0.5</span><span class="col-note">Performa Home Solid</span></div>
-            <div class="pred-col accent-green"><span class="col-title">Over / Under</span><span class="col-answer green">Over 2.5</span><span class="col-note">Peluang Gol Terbuka</span></div>
-            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Home Win (1)</span><span class="col-note">Atletico Morelia Menang</span></div>
-            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">2 : 1</span><span class="col-note">Top Pick</span></div>
+            <div class="pred-col accent-green"><span class="col-title">1X2</span><span class="col-answer green">Away Win (2)</span><span class="col-note">Independiente Santa Fe Menang</span></div>
+            <div class="pred-col accent-gold"><span class="col-title">Skor Akurat</span><span class="col-answer">1 : 2</span><span class="col-note">Top Pick</span></div>
           </div>
         </div>
       </div>
